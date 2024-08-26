@@ -1,9 +1,8 @@
-
+import { Button } from "@/components/ui/button"
 const Home = () => {
-
   return (
     <div className=" text-black">
-      SurfCode WhiteLabel
+      <Button>Surf Code</Button>
     </div>
   );
 }
