@@ -1,6 +1,7 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
+import WelcomeScreen from '../components/welcomeScreen';
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
     return (
@@ -9,11 +10,12 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
                 <title>SurfCode</title>
                 <link rel='icon' href='/logoSurfCode.jpg' />
                 <link
-                    href='https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap'
                     rel='stylesheet'
+                    href='https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap'
                 />
                 {/* Você pode adicionar outras meta tags aqui, como descrição, etc. */}
             </Head>
+            <WelcomeScreen />
             <Component {...pageProps} />
         </>
     );
