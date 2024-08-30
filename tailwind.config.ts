@@ -8,15 +8,15 @@ const config: Config = {
     theme: {
         extend: {
             colors: {
-                primary: '#0056d2', // Cor principal (azul)
-                secondary: '#ff6f61', // Cor secundária (laranja)
-                background: '#f8f9fa', // Cor de fundo (cinza claro)
-                text: '#333333', // Cor do texto (cinza escuro)
-                border: '#e0e0e0', // Cor da borda (cinza claro)
+                primary: '#ffffff', // Branco (para texto e elementos de destaque)
+                secondary: '#00bfff', // Azul claro (para acentos futuristas)
+                background: '#000000', // Preto (para o fundo principal)
+                text: '#e5e7eb', // Branco gelo (para texto em contraste com o fundo preto)
+                border: '#333333', // Cinza escuro (para bordas sutis)
+                highlight: '#00bfff', // Azul claro para destaque (cor de onda e elementos interativos)
             },
             fontFamily: {
-                sans: ['Roboto', 'sans-serif'], // Fonte principal
-                serif: ['Merriweather', 'serif'], // Fonte secundária (opcional)
+                sans: ['Orbitron', 'sans-serif'], // Fonte futurista
             },
         },
     },
