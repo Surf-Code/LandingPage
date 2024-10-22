@@ -1,7 +1,6 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
-import WelcomeScreen from '../components/welcomeScreen';
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
     return (
@@ -15,7 +14,6 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
                 />
                 {/* Você pode adicionar outras meta tags aqui, como descrição, etc. */}
             </Head>
-            <WelcomeScreen />
             <Component {...pageProps} />
         </>
     );
